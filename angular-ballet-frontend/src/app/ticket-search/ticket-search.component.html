@@ -1,0 +1,13 @@
+<div>
+
+  <input #searchBox id="search-box" placeholder="search away!" (input)="search(searchBox.value)" />
+
+  <ul class="search-result">
+    <li *ngFor="let ticket of tickets$ | async" >
+      <a routerLink="/detail/{{ticket.id}}">
+        {{ticket.name}}
+      </a>
+    </li>
+  </ul>
+
+</div>

@@ -6,11 +6,19 @@ import { AppComponent } from './app.component';
 import { TicketsComponent } from './tickets/tickets.component';
 import { HomeComponent } from './home/home.component';
 
+import { FormsModule } from '@angular/forms';
+import { MessageComponent } from './message/message.component';
+import { TicketDetailComponent } from './ticket-detail/ticket-detail.component';
+import { TicketSearchComponent } from './ticket-search/ticket-search.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     TicketsComponent,
-    HomeComponent
+    HomeComponent,
+    MessageComponent,
+    TicketDetailComponent,
+    TicketSearchComponent
   ],
   imports: [
     BrowserModule,

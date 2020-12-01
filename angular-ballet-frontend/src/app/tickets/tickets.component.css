@@ -1,0 +1,87 @@
+#textMain{
+  color: #F29E03;
+  padding: 40px;
+  margin-right: 20px;
+  border: 2px solid #F29E03;
+  text-align: center;
+  line-height: 1.8;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+[class*='col-'] {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#dream{
+  text-align: center;
+  font-size: 350%;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 300%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+h4 {
+  position: relative;
+}
+.grid {
+  margin: 0;
+}
+.col-1-4 {
+  width: 25%;
+}
+.module {
+  padding: 20px;
+  text-align: center;
+  color: #11261F;
+  max-height: 120px;
+  min-width: 120px;
+  background-color: #0CFFE1;
+  border-radius: 5px;
+  border: 2px solid #11261F;
+}
+
+.module:hover {
+  background-color: #F29B30;
+  cursor: pointer;
+  color: #592202;
+  border: 2px solid #592202;
+}
+.grid-pad {
+  padding: 10px 0;
+}
+.grid-pad > [class*='col-']:last-of-type {
+  padding-right: 20px;
+}
+@media (max-width: 600px) {
+  .module {
+    font-size: 10px;
+    max-height: 75px; }
+}
+@media (max-width: 1024px) {
+  .grid {
+    margin: 0;
+  }
+  .module {
+    min-width: 60px;
+  }
+}

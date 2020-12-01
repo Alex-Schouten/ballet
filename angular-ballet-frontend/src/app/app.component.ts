@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-ballet';
   footer = 'A performance brought to you by Alex Schouten | 2020 | All rights reserved';
 
 }
