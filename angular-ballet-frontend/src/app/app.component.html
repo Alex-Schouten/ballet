@@ -1,0 +1,28 @@
+<div class="header">
+  <div class="header-wrapper">
+    <section>
+      <h1>Welcome to the Royal Ballet</h1>
+      <p>The show is about to start!</p>
+    </section>
+
+    <nav>
+      <ul>
+        <li><a routerLink="/dashboard">Home</a></li>
+        <li><a routerLink="/tickets">Tickets</a></li>
+        <li><a routerLink="/dashboard">Customers</a></li>
+        <li><a routerLink="/dashboard">Basket</a></li>
+        <li><a routerLink="/dashboard">Orders</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</div>
+
+<div class="body">
+  <h1>{{title}}</h1>
+  <router-outlet></router-outlet>
+</div>
+
+<footer>
+  <h2 class="footer">{{footer}}</h2>
+</footer>
