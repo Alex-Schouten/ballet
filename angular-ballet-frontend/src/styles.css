@@ -15,6 +15,10 @@ body {
   padding: 3.5em 2em 2em;
 }
 
+.hundred{
+  height: 100vh;
+}
+
 .header-wrapper{
   margin-bottom: 0;
   border: 4px solid white;
@@ -68,10 +72,6 @@ body {
   border-bottom: 7px solid black;
 }
 
-.body{
-  margin: 2em;
-}
-
 footer{
   background-color: black;
   text-align: center;
@@ -84,4 +84,51 @@ footer h2{
   padding-top: 200px;
   padding-bottom: 30px;
   margin: 0;
+}
+
+.extra-wrapper{
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.extra-wrapper p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 19px;
+  line-height: 24px;
+  margin: auto;
+  text-align: left;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.extra-wrapper span:first-child{
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 2.5em;
+  padding-bottom: 15px;
+  border-bottom: 3px solid white;
+  padding-top: 7px;
+  line-height: 20px;
+}
+
+.extra-wrapper span:last-child{
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.left {
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
 }

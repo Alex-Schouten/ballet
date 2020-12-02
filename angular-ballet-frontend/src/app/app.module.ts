@@ -10,7 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { MessageComponent } from './messages/message.component';
 import { TicketDetailComponent } from './ticket-detail/ticket-detail.component';
 import { TicketSearchComponent } from './ticket-search/ticket-search.component';
-import {HttpClientModule} from "@angular/common/http";
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [

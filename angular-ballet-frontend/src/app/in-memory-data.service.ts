@@ -8,7 +8,10 @@ import { Ticket } from './tickets_model/ticket';
 export class InMemoryDataService implements InMemoryDbService{
   createDb() {
     const tickets = [
-      {id: 1, name: 'La Triviata', summary: 'people die'}
+      {id: 1, name: 'La Triviata', summary: 'people die'},
+      {id: 2, name: 'La Triviata', summary: 'people die'},
+      {id: 3, name: 'La Triviata', summary: 'people die'},
+      {id: 4, name: 'La Triviata', summary: 'people die'}
     ];
     return {tickets};
   }
